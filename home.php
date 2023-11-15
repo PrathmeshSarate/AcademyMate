@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home Page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<style>
+    *{
+        padding: o;
+        margin: 0;
+        font-family: sans-serif;
+        
+
+    }
+    .container{
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(EducationLaptop01.jpg);
+        background-position: center;
+        background-size: cover;
+        padding-left: 5%;
+        padding-right: 5%;
+        box-sizing: border-box;
+       
+
+    }
+    ul{
+        float: right;
+        list-style-type: none;
+        padding-right: 10px;
+        margin-top: 30px;
+        
+    }
+    ul li{
+        display: inline-block;
+    }
+    ul li a{
+        text-decoration: none;
+        color: #fff;
+        padding: 5px 20px;
+        border: 1px solid #fff;
+        transition: 0.6s ease;
+
+    }
+    ul li.active a{
+        background-color: #fff;
+        color: #000;
+    }
+    ul li a:hover{
+        background-color: #fff;
+        color: #000;
+    }
+    .row{
+        display: flex;
+        height: 88%;
+        align-items: center;
+        
+        
+    }
+    .col{
+        flex-basis: 50%;
+        padding-top: 30%;
+        
+    }
+    .card{
+        width: 150px;
+        height: 180px;
+        display: inline-block;
+        border-radius: 10px;
+        padding: 15px 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 10px 15px;
+        
+        background-position: center;
+        background-size: cover;
+        transition: transform 0.5s ease;
+    }
+    .card1{
+        background-image: url(card1.png);
+    }
+    .card2{
+        background-image: url(card2.jpg);
+    }
+    .card3{
+        background-image: url(card3.png);
+    }
+    .card4{
+        background-image: url(2330463.jpg);
+    }
+    .card:hover{
+        transform: translate(-10px);
+    }
+    h5{
+        color: #fff;
+        text-shadow: 0 0 5px #999;
+    }
+    
+</style>
+    </head>
+        <body>
+            <div class="container">
+            <div class="navbar">
+                <nav>
+                    <ul>
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="aboutus.html">About</a></li>
+                        <li><a href="mainlogin.php">Admin Login</a></li>
+                        <li><a href="student/index.php">Student Login</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+            <!-- <div class="row">
+
+            <div class="col">
+                <div class="card card1">
+                    <h5>gallery...</h5>
+                </div>
+                <div class="card card2">
+                    <h5>gallery...</h5>
+                </div>
+                <div class="card card3">
+                    <h5>gallery...</h5>
+                </div>
+                <div class="card card4">
+                    <h5>gallery...</h5>
+                </div>
+            </div>
+        </div> -->
+            </div>
+
+        </body>
+    
+</html>
